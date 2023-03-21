@@ -60,7 +60,7 @@ CONSEQUENT can consist of mutliple commands separated by the semicolon `;`.
 !!! example
 
     ```
-    ifThenElse(
+    ifThen(
         $someVariable == 'someValue', // if condition is true
         $anotherVariable = 1, // do this
     )
